@@ -219,17 +219,69 @@
 // when it comes to an unshift this is also add the elements but beginning of the array only diffrence
 
 
+// shift and pop acts as same removes the elements from array
+//  pop removes last element of the array where shift removes the first element
+// let num = [1,4,6,7,8,2]
+// num.pop()
+// console.log(num.length);
+// let num = [1,4,6,7,8,2]
+// console.log(num.shift());
+// console.log(num)
+
+// let array1 = [1,2,3,4,7,6]
+// let newArr = array1.map((ele) => {
+//         return ele * 2
+// }).filter((elem) => {
+//         return elem > 10
+// })
+// console.log(newArr);
+// let a = [1,2,3,4,5]
+// a.splice(a.length-1,1,5)
+// console.log(a);
+
+// reduce Method 
+
+// let arr = [1,2,6,7]
+// let newArr = arr.reduce((acc,ele) => acc += ele,7)
+// console.log(newArr);
+
+// Strings in js 
+// let myName = "Abhishek is a very good boy"
+// console.log(myName.search("row"));
+// console.log(myName.slice(1,5));
+
+// slice and substring both are same but substring won't accept negative value
+
+// date and time method in java script
+
+// we can create date objects in 4 ways
+// console.log(new Date());
+// let currentDate = new Date(date String)
+// console.log(currentDate);
+
+// let currDate = new Date().toDateString()
+// console.log(currDate);Date.now().toLocaleString
+// Date.now().toLocaleString
 
 
+// console.log(Date.now()); returns miliseconds from 1970 jan 1
+
+        
+// events is js 
+// inline event 
+
+{/* <button onclick = "alert('you beauty baby')">click me </button> */}
 
 
+// function calling event 
 
-
-
-
-
-
-
+// <button><a href="#" class="button_su_inner" onclick="callingFunction()">click me</a></button>
+// // /* <script>
+//     const callingFunction = () => {
+//       alert("thanks for clicking on me");
+//       }
+// </script> */
+``
 
 
 
